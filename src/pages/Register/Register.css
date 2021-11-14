@@ -1,0 +1,27 @@
+.register{
+    background-color: cadetblue;
+    height: 65vh;
+    padding: 15px;
+}
+
+.register-item{
+    margin-top:20px;
+    background-color:#6d6875 ;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.input-file{
+    width: 40%;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.submit{
+    width: 20%;
+    padding: 15px 15px;
+    border-radius: 20px;
+    margin: 10px;
+}

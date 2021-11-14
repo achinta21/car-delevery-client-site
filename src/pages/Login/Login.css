@@ -1,0 +1,13 @@
+.login{
+    background-color: cadetblue;
+    height: 50vh;
+    padding: 15px;
+}
+.submit{
+background-color: rgb(109, 108, 119);
+color: white;
+}
+.submit:hover{
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "name":"LAMBORGHINI",
+        "title":"NEW CAR / AUTOMATIC / SPORTS",
+        "prices":1050.00,
+        "km":4000,
+        "img":"https://i.ibb.co/thQhDbd/car-6.jpg"
+    },
+    {
+        "id":2,
+        "name":"FERRARI RED CAR",
+        "title":"NEW CAR / AUTOMATIC / SPORTS",
+        "prices":750.00,
+        "km":4000,
+        "img":"https://i.ibb.co/3p5QwDT/car-5.jpg"
+    },
+    {
+        "id":3,
+        "name":"BMW E46 M3 DISKI SERIE",
+        "title":"NEW CAR / AUTOMATIC / SPORTS",
+        "prices":950.00,
+        "km":4000,
+        "img":"https://i.ibb.co/N6N8JNZ/car-3.jpg"
+    },
+    {
+        "id":4,
+        "name":"VOLKSWAGEN SCIROCCO 2016",
+        "title":"NEW CAR / AUTOMATIC / SPORTS",
+        "prices":1050.00,
+        "km":4000,
+        "img":"https://i.ibb.co/3S9Gy22/car-4.jpg"
+    },
+    {
+        "id":5,
+        "name":"PORSCHE CAYEN LAST",
+        "title":"NEW CAR / AUTOMATIC / SPORTS",
+        "prices":780.00,
+        "km":4000,
+        "img":"https://i.ibb.co/VYV3cGC/car-1.jpg"
+    },
+    {
+        "id":6,
+        "name":"LEXUS GS F",
+        "title":"NEW CAR / AUTOMATIC / SPORTS",
+        "prices":900.00,
+        "km":4000,
+        "img":"https://i.ibb.co/CPhXmQK/car-2.jpg"
+    }
+]
