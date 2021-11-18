@@ -10,7 +10,7 @@ const MakeAdmine = () => {
     }
     const handelAdmineSubmit=e=>{
         const user={email};
-        fetch('http://localhost:5000/users/admin',{
+        fetch('https://frozen-inlet-69668.herokuapp.com/users/admin',{
             method:'PUT',
             headers:{
                 'authorization':`Bearer${token}`,

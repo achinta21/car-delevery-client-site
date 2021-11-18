@@ -46,7 +46,7 @@ const Purchase  = ({openBooking,handleBookingClose,producet}) => {
           img:img
      }
      console.log(appointment)
-     fetch('http://localhost:5000/appointments',{
+     fetch('https://frozen-inlet-69668.herokuapp.com/appointments',{
        method:'POST',
        headers:{
          'content-type':'application/json'

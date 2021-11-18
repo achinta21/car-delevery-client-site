@@ -4,7 +4,7 @@ import More from '../More/More';
 const Mores = () => {
 const[mores,setMores]=useState([]);
 useEffect(()=>{
-    fetch('http://localhost:5000/users')
+    fetch('https://frozen-inlet-69668.herokuapp.com/users')
     .then(res=>res.json())
     .then(data=>setMores(data))
 },[])
