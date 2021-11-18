@@ -5,7 +5,7 @@ import './Producets.css';
 const Producets = () => {
     const[producets,setProducets]=useState([]);
     useEffect(()=>{
-        fetch('producets.JSON')
+        fetch('Producets.JSON')
         .then(res=>res.json())
         .then(data=>setProducets(data))
     },[])

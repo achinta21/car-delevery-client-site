@@ -1,4 +1,5 @@
 import React from 'react';
+import Purchase from '../../Purchase/Purchase';
 
 const More = ({more}) => {
     const{name,title,prices,km,img}=more;

@@ -4,7 +4,7 @@ import More from '../More/More';
 const Mores = () => {
 const[mores,setMores]=useState([]);
 useEffect(()=>{
-    fetch('mores.JSON')
+    fetch('http://localhost:5000/users')
     .then(res=>res.json())
     .then(data=>setMores(data))
 },[])

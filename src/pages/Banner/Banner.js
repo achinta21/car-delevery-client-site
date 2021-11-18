@@ -10,7 +10,7 @@ const Banner = () => {
                 <p className="text-white mb-4">Lorem ipsum dolor sit, amet <br />  adipisicing elit. Sunt, fugit!</p>
                 <button className="btn bg-warning text-white fw-bold">GET STARTED NOW</button>
             </div>
-            <div className="ms-5">
+            <div className="banner-item ms-5">
                 <img src={banner} alt="" />
             </div>
         </div>

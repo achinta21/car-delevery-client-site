@@ -21,17 +21,17 @@ const Header = () => {
           <li className="nav-item">
             <Link className="header-link fw-bold me-4 text-white" to="/more">More item</Link>
           </li>
-          
-          <li className="nav-item">
-            <Link className="header-link  fw-bold me-4 text-white" to="/dashboard">Dashboard</Link>
-          </li>
           <li className="nav-item">
             <Link className="header-link  fw-bold me-4 text-white" to="/contract">Contact</Link>
           </li>
             <p className="me-3 fw-bold">{user?.displayName}</p>
            <li className="nav-item">
               {user?.email?
-                <button onClick={logOut} className="btn bg-white fw-bold">logOut</button>:
+              <li> 
+                 <Link className="header-link  fw-bold me-3" to="/dashboard"><button className="btn bg-warning fw-bold">Dashboard</button></Link>
+                  <button onClick={logOut} className="btn bg-white fw-bold">LogOut</button>
+              </li>
+                :
                 <Link className="header-link  fw-bold me-3" to="/login"><button className="btn bg-warning fw-bold">Log in</button></Link>}
           </li>
         </ul>

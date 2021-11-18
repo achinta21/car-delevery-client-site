@@ -21,7 +21,7 @@ const Register = () => {
             alert('your password did not match');
             return;
         }
-        registerUser(loginData.email , loginData.password,history);
+        registerUser(loginData.email , loginData.password,loginData.name, history);
        e.preventDefault();
    }
     
@@ -40,7 +40,7 @@ const Register = () => {
            <br />
            <input onBlur={handelOnBlur} className="input-file"  type="password" placeholder="Retype Password"name="password2" required/>
            <br />
-           {user?.email && alert('your account successfully')}
+           {user?.email && <alert className='text-success'>Made Admin successfully</alert>}
            <div className="m-auto text-danger fw-bold"></div>
            <input className="submit fw-bold" type="submit" value="Submit" /> 
            <Link to="/login"><button className=" submit fw-bold">AllReady Login</button></Link>
